@@ -1,21 +1,21 @@
-# 보리 (Bori)
+# Bori
 
-[helloyomi.com](https://helloyomi.com/)과 같은 읽기 친구 앱입니다. 고양이를 키우는 대신 **강아지 보리**를 돌보고, 손그림 대신 **클레이메이션** 그림체를 쓰니다.
+A dog reading companion for kids, inspired by the flow of helloyomi.com. Instead of raising a cat, children read aloud to a puppy named Bori. The art is claymation-style rather than hand-drawn sketches.
 
-아이가 소리 내어 읽으면 보리가 배를 채웁니다. 광고, 계정, 연속 출석 불꽃은 없습니다.
+Every spoken word feeds Bori a little. No ads, no accounts, no streak fire emojis.
 
-## 하는 일
+## Features
 
-- 기운이 줄어드는 강아지와 홈 화면
-- 쉬움 / 중간 / 어려움 이야기 책장
-- 소리 내어 읽기 (브라우저 음성 인식)
-- 단어를 눌러 발음 듣기
-- 이름·인물·장소·사건으로 이야기 만들기
-- 한국어 / 영어
+- Home screen with an energy meter that decays overnight
+- Easy / medium / hard story library
+- Read-aloud with browser speech recognition
+- Tap a word to hear it
+- Story maker from name, character, place, and event
+- Korean and English
 
-데이터는 이 기기 `localStorage`에만 남습니다.
+All data stays in localStorage on this device.
 
-## 실행
+## Run
 
 ```bash
 npm install
@@ -23,4 +23,4 @@ npm test
 npm run dev
 ```
 
-브라우저에서 `http://localhost:5173` 을 엽니다.
+Open http://localhost:5173
